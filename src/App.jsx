@@ -1,4 +1,15 @@
-import { useState } from "react";
+//import "./styles.css";
+//import Contador from "./contador.jsx";
+import Todo from "./TodoList";
+
+export default function App() {
+  return (
+    <>
+      <Todo />
+    </>
+  );
+}
+/*import { useState } from "react";
 
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -26,3 +37,4 @@ function App() {
 }
 
 export default App;
+*/
