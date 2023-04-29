@@ -1,6 +1,6 @@
 //import "./styles.css";
 //import Contador from "./contador.jsx";
-import Todo from "./TodoList";
+import Todo from "./Todo/TodoList";
 
 export default function App() {
   return (

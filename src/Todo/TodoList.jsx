@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./todo.css";
 
 function TodoList() {
   const [textInput, setTextInput] = useState("");
@@ -61,7 +62,7 @@ function TodoList() {
               <input
                 className="p-3 m-1"
                 type="checkbox"
-                onClick={() => handleCheck(index)}
+                onClick={() => handleCheck()}
               />
             </li>
           ))}
